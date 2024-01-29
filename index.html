@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="src/output.css">
     <title>PORTFOLIO</title>
@@ -19,6 +20,7 @@
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#skill">Skill</a>
+                <a href="#education">Education</a>
                 <a href="#contact">Contact</a>
             </div>
     </div>
@@ -28,10 +30,10 @@
     <section id="home">
         <div class="w-full relative h-screen">
             <div class="absolute top-0 left-0 w-full h-full">
-                <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+                <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col" data-aos="fade-right">
                     <h1 class="text-slate-400 text-4xl font-bold mb-3 md:text-5xl hover:tracking-widest transition-all duration-500 ease-in-out cursor-default">Hello i'm<span class="text-red-500"> Syayid Abdan Fabasitho</span></h1>
                     <div class="flex flex-row justify-center">
-                        <a href="#" class="text-black font-semibold text-4xl bg-transparent py-3 px-3 rounded-xl hover:bg-gradient-to-t from-black to-slate-500 hover:text-white transition duration-500 ease-in-out mr-3">My CV</a>
+                        <a href="#" class="text-black font-semibold text-4xl bg-white py-3 px-3 rounded-xl hover:bg-gradient-to-t from-black to-slate-500 hover:text-white transition duration-500 ease-in-out mr-3">My CV</a>
                       </div>
                 </div>
             </div>
@@ -43,9 +45,9 @@
     <section id="about">
         <div class="max-w-[1240px] mx-auto py-32 px-4">
             <div>
-                <div class="w-full px-4 mb-6">
+                <div class="w-full px-4 mb-6" data-aos="zoom-in">
                     <h1 class="font-bold text-4xl text-center text-slate-500 hover:tracking-widest transition-all duration-500 ease-in-out cursor-default">ABOUT ME</h1>
-                    <div class="lg:flex items-center">
+                    <div class="lg:flex items-center" data-aos="fade-down-left">
                         <img src="img/for about section.png" alt="" class="mb-8 ml-9">
                         <p class="font-semibold text-white">Hi. I'm Syayid. I am the second of two children in my family. There are 4 members in my family, namely my father, my mother, my older sister and I am the last one. Now I am studying at SMK IDN BOARDING SCHOOL PAMIJAHAN BOGOR, and I am now in class 10 and I am majoring in RPL/Software Engineering. My goal is to become an expert programmer and the most important thing is that our goal is to become people who are useful to other people.</p>
                     </div>
@@ -58,10 +60,10 @@
     <!-- skil start -->
     <section id="skill">
         <div class="max-w-[1240px] mx-auto py-32 px-4">
-            <div class="w-full px-4">
-                <h1 class="font-bold text-2xl text-center text-slate-500 mb-3 hover:tracking-widest transition-all duration-500 cursor-default">MY SKILL</h1>
+            <div class="w-full px-4" data-aos="zoom-out-right">
+                <h1 class="font-bold text-4xl text-center text-slate-500 mb-3 hover:tracking-widest transition-all duration-500 cursor-default">MY SKILL</h1>
             </div>
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-duration="3000">
                 <div class="skill-box">
                   <span class="title">HTML</span>   
 
@@ -107,6 +109,50 @@
     <!-- skil end -->
 
     <!-- education start -->
+    <section id="education">
+      <div class="max-w-[1240px] mx-auto py-25 px-4">
+        <div class="w-full px-4" data-aos="zoom-out-left">
+          <h1 class="font-bold text-2xl text-center text-slate-500 mb-8 hover:tracking-widest transition-all duration-500 cursor-default">MY EDUCATION</h1>
+      </div>
+      <div class="card-box">
+        <div class="card">
+          <img src="img/logo-tk-sinar-bangsa-removebg-preview.png" alt="">
+          <div class="card__content">
+            <p class="card__title">TK Sinar Bangsa</p>
+            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="img/logo-tk-sinar-bangsa-removebg-preview.png" alt="">
+          <div class="card__content">
+            <p class="card__title">TK Sinar Bangsa</p>
+            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/logo-tk-sinar-bangsa-removebg-preview.png" alt="">
+          <div class="card__content">
+            <p class="card__title">TK Sinar Bangsa</p>
+            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="img/logo-tk-sinar-bangsa-removebg-preview.png" alt="">
+          <div class="card__content">
+            <p class="card__title">TK Sinar Bangsa</p>
+            <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+        
+    </section>
+    <!-- education end -->
+
+    <!-- contact start -->
     <section id="contact">
         <section class="text-gray-600 body-font relative">
             <div class="max-w-[1240px] mx-auto py-96 px-6">
@@ -135,7 +181,7 @@
                           </div>
                         </div>
                         <div class="p-2 w-full">
-                          <button class="flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none hover:bg-gradient-to-t from-red-400 to-slate-400 rounded text-lg">Button</button>
+                          <button class="flex mx-auto text-black bg-white border-0 py-2 px-8 focus:outline-none hover:bg-gradient-to-t from-red-400 to-slate-400 rounded text-lg">Send</button>
                         </div>
                         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                           <a href="syayidabdann@email.com" class="text-indigo-500 cursor-default">syayidabdann@email.com</a>
@@ -172,7 +218,7 @@
             </div>
           </section>
     </section>
-    <!-- education end -->
+    <!-- contact end -->
 
     <!-- footer start -->
     <h1 class="bg-transparent text-white p-5">Copyright &copy; 2023 by Syayid All Right Reserved</h1>
@@ -180,5 +226,9 @@
 
 </div>
     <script src="src/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
